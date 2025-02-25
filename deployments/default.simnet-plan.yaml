@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: existential-risk-containment
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/existential-risk-containment.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: fundamental-force-balancing
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/fundamental-force-balancing.clar

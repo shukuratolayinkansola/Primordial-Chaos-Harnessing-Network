@@ -15,3 +15,5 @@ Y
 )tests/fundamental-force-balancing.test.ts,8/8/882af79bc1c0159deba4311990e44b163f974855
 [
 +contracts/existential-risk-containment.clar,b/f/bf9841f27f6277ddeaa54f27179529af070102c9
+Z
+*tests/existential-risk-containment.test.ts,0/9/09c94548222926c362e7f0af8569b164a84a87c7
