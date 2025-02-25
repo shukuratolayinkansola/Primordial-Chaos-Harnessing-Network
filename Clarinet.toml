@@ -1,21 +1,34 @@
 [project]
-name = "Primordial-Chaos-Harnessing-Network"
-description = ""
+name = 'Primordial-Chaos-Harnessing-Network'
+description = ''
 authors = []
 telemetry = true
-cache_dir = "./.cache"
+cache_dir = './.cache'
+requirements = []
+[contracts.existential-risk-containment]
+path = 'contracts/existential-risk-containment.clar'
+clarity_version = 2
+epoch = 2.5
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.fundamental-force-balancing]
+path = 'contracts/fundamental-force-balancing.clar'
+clarity_version = 2
+epoch = 2.5
 
+[contracts.potential-energy-tapping]
+path = 'contracts/potential-energy-tapping.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reality-seed-germination]
+path = 'contracts/reality-seed-germination.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
-passes = ["check_checker"]
-check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
+passes = ['check_checker']
 
-# Check-checker settings:
-# trusted_sender: if true, inputs are trusted after tx_sender has been checked.
-# trusted_caller: if true, inputs are trusted after contract-caller has been checked.
-# callee_filter: if true, untrusted data may be passed into a private function without a
-# warning, if it gets checked inside. This check will also propagate up to the
-# caller.
-# More informations: https://www.hiro.so/blog/new-safety-checks-in-clarinet
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
