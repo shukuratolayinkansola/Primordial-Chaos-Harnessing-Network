@@ -9,3 +9,5 @@ W
 'contracts/reality-seed-germination.clar,1/3/13881ae612556cd06137d7231d1f5682e8238d9e
 V
 &tests/reality-seed-germination.test.ts,5/8/5897c57e27ce6962cfd2233f60f148f01b7a25eb
+Z
+*contracts/fundamental-force-balancing.clar,4/a/4aac4546aceb5c42892461c36fb1532b8e80cedd

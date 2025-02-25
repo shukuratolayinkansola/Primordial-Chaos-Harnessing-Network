@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.fundamental-force-balancing]
+path = 'contracts/fundamental-force-balancing.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.potential-energy-tapping]
 path = 'contracts/potential-energy-tapping.clar'
 clarity_version = 2
